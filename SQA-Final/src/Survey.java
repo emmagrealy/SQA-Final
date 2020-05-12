@@ -22,11 +22,18 @@ public class Survey {
 		this.questions = questions;
 	}
 	
+	
+	//Constructor - taking in a name
+	public Survey(String name) 
+	{
+		this.name = name;
+	}
+	
 	//public void
-	//public void addQuestion(Questions question)
-	//{
-		//this.questions.add(question);
-	//}
+	public void add(Questions question)
+	{
+		this.questions.add(question);
+	}
 	
 	
 	//Getters and setter
