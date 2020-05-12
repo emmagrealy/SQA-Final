@@ -13,3 +13,27 @@ This assignment must contain the following:
 * Test Driven Development (TDD) detailed section and how I created my project with this approach.
 * A code coverage tool section detailing the tool I will use and why I selected this tool.
 * My pull review checklist detailing all my checks that a reviewer other than myself would make when making pull requests.
+
+
+
+# Version Control 
+
+Version control is important for documents that undergo a lot of revision and redrafting and is particularly important for electronic documents because they can easily be changed by a number of different users.
+
+To manage version control of this project I use the gitflow process. This involved the creation of branches as new features were created. I have created 4 main branches:
+
+## Master
+This branch is where my final, completed project will be. It will contain all my code and documentation.
+
+## Dev
+This branch will contain my near finished project. Is is the final step before merging to my Master branch. This branch will take pull requests from either Documentation or Development.
+
+## Documentation 
+This branch will include all my completed and finalized documentation from this project. Pull requests for this branch will be for documentation branches ONLY. No branch that pulls from Development will pull from this branch. 
+
+
+## Other Branches
+I will be creating additional branches to help add features to these branches. Each additional branch will be merged into either Development or Documentation, then to Dev, and then finally to Master. 
+
+
+
