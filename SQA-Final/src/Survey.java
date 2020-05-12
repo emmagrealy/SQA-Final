@@ -23,10 +23,10 @@ public class Survey {
 	}
 	
 	//public void
-	public void addQuestion(Questions question)
-	{
-		this.questions.add(question);
-	}
+	//public void addQuestion(Questions question)
+	//{
+		//this.questions.add(question);
+	//}
 	
 	
 	//Getters and setter
@@ -42,5 +42,6 @@ public class Survey {
 	public void setQuestions(ArrayList<Questions> questions) {
 		this.questions = questions;
 	}
+
 
 }

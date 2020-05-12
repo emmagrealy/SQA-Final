@@ -47,4 +47,21 @@ public class Tester {
 			Survey sur = new Survey("My Questions" ,questions);
 			assertTrue("Should be an object of type arralylist",sur.getQuestions() instanceof ArrayList);
 		}
+		
+		
+		
+		//Test - check that questions are being added to the survey
+		@Test
+		public void addQuestion()
+		{
+			//Creation of question object
+			Questions one = new Questions("Customer Service");
+			Questions two = new Questions("Food Quality");
+			
+			Survey sur = new Survey("My Questions");
+			sur.add(one);
+			sur.add(two);
+			
+			assertEquals("Length of questions array should be 2",2 ,sur.getQuestions().size());
+		}
 }
