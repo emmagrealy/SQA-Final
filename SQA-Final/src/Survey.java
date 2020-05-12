@@ -9,7 +9,7 @@ public class Survey {
 	//Collection 
 	private ArrayList<Questions> questions = new ArrayList<Questions>();
 	
-	//Empty Constructor - proof that a class can be created
+	//Empty Constructor - proof that class can be created
 	public Survey() 
 	{
 		

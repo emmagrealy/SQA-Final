@@ -8,7 +8,7 @@ import org.junit.Test;
 
 public class Tester {
 
-	//Test - create an empty survey
+	//Test - creates an empty survey
 	@Test //This is a test case
 	public void createSurveyEmpty()
 	{		
