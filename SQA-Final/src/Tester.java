@@ -24,10 +24,27 @@ public class Tester {
 		Questions one = new Questions("Customer Service");
 		//Collection representing questions
 		ArrayList<Questions> questions = new ArrayList<Questions>();
-		//add question to list
+		//Add question to list
 		questions.add(one);
 		
 		Survey sur = new Survey("My Questions" ,questions);
 		assertTrue("Should be an object of type survey",sur instanceof Survey);
 	}
+	
+	
+	
+	//Test - see if collection of questions exists in the survey object
+		@Test
+		public void surveyQuestions()
+		{		
+			//Question object
+			Questions one = new Questions("Customer Service");
+			//Collection representing questions
+			ArrayList<Questions> questions = new ArrayList<Questions>();
+			//Add question to list
+			questions.add(one);
+			
+			Survey sur = new Survey("My Questions" ,questions);
+			assertTrue("Should be an object of type arralylist",sur.getQuestions() instanceof ArrayList);
+		}
 }
